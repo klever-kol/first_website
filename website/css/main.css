@@ -11,7 +11,7 @@ body {
     color: #f4f4f4;
 }
 #header {
-    background-image: url('https://images.wallpaperscraft.ru/image/single/gory_reka_solntse_143529_3840x2400.jpg');
+    background-image: url('../img/BW_gory_reka_solntse_143529_3840x2400.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -28,7 +28,7 @@ body {
 #logo button{
     width: 100px;
     height: 100px;
-    background-color: #1900ff;
+    background-color: #353535;
     float: left;
     padding: 10px;
     border-radius: 10px;
@@ -49,8 +49,8 @@ body {
         text-align: center;
         line-height: 80px;
         text-shadow:
-        0px 0px 8px #ffffff,
-        0px 0px 20px #89ffef;
+        0px 0px 8px #979797,
+        0px 0px 20px #3f3f3f;
     }
 #main {
     padding: 20px;
