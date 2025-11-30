@@ -1,79 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Ubuntu, sans-serif;
-    background-color: #222222;
-    color: #f4f4f4;
 }
-#header {
-    background-image: url('../img/BW_gory_reka_solntse_143529_3840x2400.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center bottom;
-    background-color: darkgrey;
-    color: black;
-    width: 100%;
-    height: 300px;
-    background-color: #333333;
-    padding: 20px;
-    text-align: center;
-    height: 300px;
-}
-#logo button{
-    width: 100px;
-    height: 100px;
-    background-color: #353535;
-    float: left;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    transition: 0.15s;
-    cursor: pointer;
-}
-    #logo button:hover {
-        opacity: 0.8;
-    }
-    #logo button:active {
-        transform: scale(0.95);
-    }
 
-    #logo h1 {
-        color: #ffffff;
-        font-size: 36px;
-        text-align: center;
-        line-height: 80px;
-        text-shadow:
-        0px 0px 8px #979797,
-        0px 0px 20px #3f3f3f;
+body {
+
+    background-color: #ffffff;
+    color: #000000;
+    background-image: url(https://images.wallpaperscraft.ru/image/single/kirpichi_stena_kirpichnaia_stena_170871_1920x1080.jpg);
+}
+
+#clicker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clicker button {
+    background-color: #000000;
+    color: #ffffff;
+    border: 3px solid #494949;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 60px;
+    border-radius: 15px;
+    float: center;
+    text-align: center;
+    border-radius: 20px;
+    width: 500px;
+    height: auto;
+    transition: 0.07s all ease-in-out;
+}
+    #clicker button:hover {
+        box-shadow: 10px 10px 20px #573a3a;
+        opacity: 0.9;
     }
-#main {
-    padding: 20px;
-    min-height: 400px;
-    height: 1000px;
-    width: 75%;
-    background-color: aliceblue;
-    float: left;
-}
-#aside {
-    background-color: #f70000;
-    padding: 10px;
+    #clicker button:active {
+        transform: scale(0.96);
+    }
+#counter {
     text-align: center;
-    width: 25%;
-    height: 1000px;
-    min-height: 400px;
-    float: left;
-}
-#footer {
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 20px;
+    top: 20px;
+    left: 50px;
+    position: absolute;
     background-color: #333333;
-    text-align: center;
-    padding: 10px;
-    clear: both;
-    width: 100%;
-    height: 50px;
+    padding: 10px 20px;
+    border-radius: 15px;
 }
