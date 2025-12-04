@@ -12,6 +12,9 @@ body {
     background-color: #ffffff;
     color: #000000;
     background-image: url(https://images.wallpaperscraft.ru/image/single/kirpichi_stena_kirpichnaia_stena_170871_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #clicker {
@@ -54,4 +57,27 @@ body {
     background-color: #333333;
     padding: 10px 20px;
     border-radius: 15px;
+    box-shadow: 4px 4px 10px #222222;
 }
+#login {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    background-color: #858585;
+    color: #ffffff;
+    transition: 0.2s all ease-in-out;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+    #login:hover {
+        box-shadow: 4px 3px 10px #6e6e6e;
+    }
+    #login:active {
+        transform: scale(0.96);
+    }
+
