@@ -5,7 +5,7 @@ function formCheck(form) {
     const genderMale = form.male.checked;
     const genderFemale = form.female.checked;
     let error = "";
-    const regex = /^[A-Za-z0-9_\-]{2,50}$/;
+    const regex = /^(?=.*[A-Za-z])[A-Za-z0-9_\-]{2,50}$/;
     const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d_-]{6,32}$/;
 
     console.log(username + ", " + password + ", " + repassword + ", "  + genderMale + ", " + genderFemale);
